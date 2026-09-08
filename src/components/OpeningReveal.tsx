@@ -11,7 +11,7 @@ export const OpeningReveal: React.FC<OpeningRevealProps> = ({ onComplete }) => {
   // Stage 0: Point of light expanding
   // Stage 1: Date "10 • 09 • 2026"
   // Stage 2: "A special day for someone who inspires more than she knows."
-  // Stage 3: Massive "NISHITA"
+  // Stage 3: Massive "NISHTA"
   // Stage 4: "HAPPY BIRTHDAY, FUTURE CS! 🎓"
   const [stage, setStage] = useState<number>(0);
 
@@ -125,7 +125,7 @@ export const OpeningReveal: React.FC<OpeningRevealProps> = ({ onComplete }) => {
           )}
         </AnimatePresence>
 
-        {/* Stage 3 & 4: Massive NISHITA & "HAPPY BIRTHDAY, FUTURE CS! 🎓" */}
+        {/* Stage 3 & 4: Massive NISHTA & "HAPPY BIRTHDAY, FUTURE CS! 🎓" */}
         <AnimatePresence>
           {stage >= 3 && (
             <motion.div
@@ -149,7 +149,7 @@ export const OpeningReveal: React.FC<OpeningRevealProps> = ({ onComplete }) => {
                 transition={{ duration: 1, delay: 0.2 }}
                 className="font-cinzel text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-extrabold tracking-tight text-gold-gradient drop-shadow-[0_0_40px_rgba(212,175,55,0.4)]"
               >
-                NISHITA
+                NISHTA
               </motion.h1>
 
               {stage >= 4 && (

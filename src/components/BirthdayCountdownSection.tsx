@@ -123,7 +123,7 @@ export const BirthdayCountdownSection: React.FC<{ onCelebrate: () => void }> = (
           >
             <Sparkles className="w-10 h-10 text-[#FFEAA7] mb-4 animate-bounce" />
             <h3 className="font-cinzel text-3xl sm:text-6xl font-black text-gold-gradient tracking-wide mb-4">
-              IT'S YOUR DAY, NISHITA! 🎂✨
+              IT'S YOUR DAY, NISHTA! 🎂✨
             </h3>
             <p className="font-serif-luxury italic text-xl sm:text-2xl text-[#E8DFC9] max-w-lg mb-8">
               Today, the world celebrates your presence, your passion, and the bright future you are forging.

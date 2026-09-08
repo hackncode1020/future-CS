@@ -168,7 +168,7 @@ export const FunnySurpriseSection: React.FC<FunnySurpriseSectionProps> = ({ onCe
 
                 <div className="font-serif-luxury text-lg sm:text-xl text-[#CBD5E1] space-y-2 leading-relaxed">
                   <p>Me: I think I understand everything. 😌</p>
-                  <p className="text-[#FFEAA7] font-semibold">Nishita: ‘Okay, explain it to me.’</p>
+                  <p className="text-[#FFEAA7] font-semibold">Nishta: ‘Okay, explain it to me.’</p>
                   <div className="flex items-center gap-2">
                     <span>Me: …………………</span>
                     {showSilentEmoji ? (
@@ -213,7 +213,7 @@ export const FunnySurpriseSection: React.FC<FunnySurpriseSectionProps> = ({ onCe
                 <div className="font-serif-luxury text-lg sm:text-xl text-[#CBD5E1] space-y-2 leading-relaxed">
                   <p className="text-[#94A3B8]">Everyone:</p>
                   <p className="italic">‘It's just one more chapter.’</p>
-                  <p className="text-[#FFEAA7] font-semibold pt-1">Future CS Nishita:</p>
+                  <p className="text-[#FFEAA7] font-semibold pt-1">Future CS Nishta:</p>
                   <p className="text-[#FFF2CF] font-medium">
                     ‘One more chapter’ × 47 chapters later… 📚😭😂
                   </p>
@@ -304,7 +304,7 @@ export const FunnySurpriseSection: React.FC<FunnySurpriseSectionProps> = ({ onCe
                   <div className="pt-2">
                     <p className="text-[#94A3B8]">Everyone: ‘Ma'am, please help us with this.’ 😂</p>
                     <p className="text-[#FFEAA7] font-semibold mt-1">
-                      Nishita: ‘First, book an appointment.’ 😎📋
+                      Nishta: ‘First, book an appointment.’ 😎📋
                     </p>
                   </div>
 
@@ -394,7 +394,7 @@ export const FunnySurpriseSection: React.FC<FunnySurpriseSectionProps> = ({ onCe
               className="p-5 sm:p-6 rounded-2xl bg-[#0C1220] border border-[#D4AF37]/40 shadow-xl max-w-md mx-auto text-center"
             >
               <p className="font-serif-luxury text-base sm:text-lg text-[#F5E6C8] leading-relaxed">
-                “Nishita, if success had a LinkedIn profile,
+                “Nishta, if success had a LinkedIn profile,
                 <br />
                 your connection request would already be accepted. 😂🎓”
               </p>
