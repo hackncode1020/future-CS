@@ -87,7 +87,7 @@ export const Navigation: React.FC<NavigationProps> = ({ onCelebrationTrigger }) 
           </div>
           <div className="flex flex-col">
             <span className="font-cinzel text-xs sm:text-sm font-bold tracking-[0.25em] text-[#F5E6C8] group-hover:text-gold-light-gradient transition-colors">
-              NISHTA
+              NISHTHA
             </span>
             <span className="text-[9px] tracking-[0.3em] text-[#D4AF37]/80 uppercase font-mono">
               FUTURE CS

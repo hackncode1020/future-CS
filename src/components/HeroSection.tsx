@@ -88,14 +88,14 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreClick }) => {
           HAPPY BIRTHDAY
         </motion.p>
 
-        {/* NISHTA */}
+        {/* NISHTHA */}
         <motion.h1
           initial={{ opacity: 0, scale: 0.92, y: 20 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ duration: 1.1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           className="font-cinzel text-[clamp(2.8rem,9vw,8rem)] font-extrabold tracking-tight leading-none text-gold-gradient drop-shadow-[0_10px_35px_rgba(212,175,55,0.35)] mb-6 select-none"
         >
-          NISHTA
+          NISHTHA
         </motion.h1>
 
         {/* FUTURE CS - THE ICONIC TITLE REVEAL */}

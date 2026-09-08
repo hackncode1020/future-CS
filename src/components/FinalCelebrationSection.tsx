@@ -8,7 +8,7 @@ export const FinalCelebrationSection: React.FC<{ onCelebrate: () => void }> = ({
   const [copiedLink, setCopiedLink] = useState(false);
   const [copiedMessage, setCopiedMessage] = useState(false);
 
-  const shareText = `Happy Birthday Nishta! 🎂✨\nA special birthday surprise for an amazing guide, mentor\nand future Company Secretary. 🎓❤️`;
+  const shareText = `Happy Birthday Nishtha! 🎂✨\nA special birthday surprise for an amazing guide, mentor\nand future Company Secretary. 🎓❤️`;
 
   const handleShare = async () => {
     playHarmonicChime('celebrate');
@@ -17,7 +17,7 @@ export const FinalCelebrationSection: React.FC<{ onCelebrate: () => void }> = ({
     if (navigator.share) {
       try {
         await navigator.share({
-          title: 'Happy Birthday Nishta 🎂 | Future CS 🎓✨',
+          title: 'Happy Birthday Nishtha 🎂 | Future CS 🎓✨',
           text: shareText,
           url: window.location.href,
         });
@@ -62,7 +62,7 @@ export const FinalCelebrationSection: React.FC<{ onCelebrate: () => void }> = ({
           <CSGovernanceSeal size={150} />
         </motion.div>
 
-        {/* REVEAL: HAPPY BIRTHDAY NISHTA */}
+        {/* REVEAL: HAPPY BIRTHDAY NISHTHA */}
         <motion.div
           initial={{ opacity: 0, y: 25 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -74,7 +74,7 @@ export const FinalCelebrationSection: React.FC<{ onCelebrate: () => void }> = ({
           </p>
 
           <h2 className="font-cinzel text-5xl sm:text-8xl md:text-9xl font-black text-gold-gradient tracking-tight leading-none">
-            NISHTA
+            NISHTHA
           </h2>
         </motion.div>
 
@@ -102,7 +102,7 @@ export const FinalCelebrationSection: React.FC<{ onCelebrate: () => void }> = ({
           className="space-y-4 max-w-2xl mx-auto mb-16"
         >
           <p className="font-serif-luxury text-2xl sm:text-4xl text-[#F5E6C8] font-semibold italic">
-            “Many many happy returns of the day, Nishta! 🥳🎂🍫”
+            “Many many happy returns of the day, Nishtha! 🥳🎂🍫”
           </p>
           <p className="font-serif-luxury text-lg sm:text-2xl text-[#94A3B8] leading-relaxed">
             “May this year bring you closer to everything you've been working for.”
@@ -152,7 +152,7 @@ export const FinalCelebrationSection: React.FC<{ onCelebrate: () => void }> = ({
           </h3>
 
           <p className="font-cinzel text-xl sm:text-2xl text-[#F3EFE6] font-bold tracking-widest">
-            “BEST OF LUCK, NISHTA! 🍀🎓✨”
+            “BEST OF LUCK, NISHTHA! 🍀🎓✨”
           </p>
         </motion.div>
 
@@ -201,7 +201,7 @@ export const FinalCelebrationSection: React.FC<{ onCelebrate: () => void }> = ({
 
         {/* Footer Editorial Marker */}
         <footer className="mt-28 pt-8 border-t border-[#D4AF37]/15 text-center text-xs font-mono text-[#64748B] tracking-widest space-y-2">
-          <p>CRAFTED WITH ADMIRATION • DEDICATED TO NISHTA</p>
+          <p>CRAFTED WITH ADMIRATION • DEDICATED TO NISHTHA</p>
           <p className="text-[#D4AF37]/70">HAPPY BIRTHDAY, FUTURE COMPANY SECRETARY 🎓</p>
         </footer>
       </div>

@@ -7,7 +7,7 @@ export const PersonalLetterSection: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   // EXACT message provided by user - NEVER altered, corrected, or truncated
-  const exactMessage = `Happy Birthday to my Amezing guide and mentor!🥳 Thank you for always pushing me to be my best and Your support during my failure📉 and the great direction you provide means the world to me😊. I am constantly inspired by your dedication. you are a Challenger who pushes my limits💪🏻.You are positive thinker who protect my energy✨. Wishing you endless success📈, happiness😊and good health🤞🏻 in the future. Have the best day filled with all the success you deserve!🧿🎉🎓. again Many many happy returns of the day Nishtaaa!!!!🥳🎂🍫`;
+  const exactMessage = `Happy Birthday to my Amezing guide and mentor!🥳 Thank you for always pushing me to be my best and Your support during my failure📉 and the great direction you provide means the world to me😊. I am constantly inspired by your dedication. you are a Challenger who pushes my limits💪🏻.You are positive thinker who protect my energy✨. Wishing you endless success📈, happiness😊and good health🤞🏻 in the future. Have the best day filled with all the success you deserve!🧿🎉🎓. again Many many happy returns of the day Nishthaaa!!!!🥳🎂🍫`;
 
   const handleOpenLetter = () => {
     playHarmonicChime('open');
@@ -96,7 +96,7 @@ export const PersonalLetterSection: React.FC = () => {
 
                     <div className="mt-4 text-center">
                       <span className="font-cinzel text-base sm:text-lg text-[#F5E6C8] font-medium tracking-widest block">
-                        To Nishta ❤️
+                        To Nishtha ❤️
                       </span>
                       <span className="text-xs text-[#94A3B8] font-light mt-1 block">
                         Click the wax seal or button below to unseal
@@ -146,7 +146,7 @@ export const PersonalLetterSection: React.FC = () => {
                         PERSONAL TRIBUTE • 10.09.2026
                       </span>
                       <h3 className="font-serif-luxury italic text-3xl sm:text-4xl text-[#0F172A] font-bold tracking-wide">
-                        To Nishta ❤️
+                        To Nishtha ❤️
                       </h3>
                     </div>
 

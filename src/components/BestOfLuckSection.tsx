@@ -67,7 +67,7 @@ export const InteractiveSecretNote: React.FC<{ onCelebrate: () => void }> = ({ o
               {/* Exact Text Required */}
               <div className="space-y-4 font-serif-luxury text-xl sm:text-2xl text-[#1E293B] leading-relaxed select-text">
                 <p className="font-bold text-2xl sm:text-3xl text-[#0F172A] font-cinzel">
-                  Nishta,
+                  Nishtha,
                 </p>
                 <p>
                   Your birthday is not just about another year.
