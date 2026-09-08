@@ -1,4 +1,4 @@
-# 🎉 Happy Birthday, Future CS! 🎓🎂✨
+# 🎉 Future-Cs 🎓🎂✨
 
 A premium, cinematic birthday surprise website created to celebrate an inspiring mentor, guide, and future Company Secretary. This project is a heartfelt digital experience filled with warmth, motivation, gratitude, and joyful celebration.
 
